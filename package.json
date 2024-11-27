@@ -1,0 +1,16 @@
+{
+  "name": "spine-previewer",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/serve-handler": "^6.1.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "serve": "^14.2.4",
+    "webview-bun": "^2.3.0"
+  }
+}

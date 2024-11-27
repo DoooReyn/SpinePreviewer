@@ -1,0 +1,88 @@
+span {
+    color: #fcfcfc;
+    margin: 4px;
+    font-weight: 600;
+}
+
+select {
+    width: 128px;
+    height: 24px;
+    border-radius: 4px;
+    border: #4c4c4c solid 1px;
+    margin: 4px;
+    background-color: #fcfcfc;
+}
+
+#drop-area {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #4c4c4c dashed 2px;
+}
+
+#drop-text {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #929292;
+    font-size: x-large;
+}
+
+#file-list {
+    display: none;
+    margin-top: 10px;
+    /* 添加文件列表的顶部外边距 */
+    list-style-type: none;
+    /* 移除默认的列表样式 */
+    padding: 0;
+    /* 移除默认的内边距 */
+    width: 100%;
+    /* 设置文件列表的宽度 */
+}
+
+#file-list li {
+    color: #fcfcfc;
+    background-color: #4c4c4c;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#debug,
+#pause,
+#pma {
+    width: 24px;
+    height: 24px;
+}
+
+#center {
+    display: flex;
+    margin-top: 10px;
+    position: fixed;
+    align-items: center;
+    top: 2px;
+}
+
+#myCanvas {
+    margin: 0;
+    padding: 0;
+    background-color: #4c4c4c;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#version {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #fcfcfc;
+    font-weight: bold;
+}

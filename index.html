@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spine预览</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas"></canvas>
+    <div id="drop-area">
+        <ul id="file-list"></ul>
+    </div>
+    <div id="center">
+        <span>皮肤</span>
+        <select id="skins"></select>
+        <span>动画</span>
+        <select id="animations"></select>
+        <span>预乘</span>
+        <input type="checkbox" id="pma">
+        <span>调试</span>
+        <input type="checkbox" id="debug">
+        <span>暂停</span>
+        <input type="checkbox" id="pause">
+    </div>
+    <div id="drop-text">将骨骼文件(.png/.atlas/.json)拖拽到这里</div>
+    <div id="version">spine v3.8</div>
+    <script src="spine-webgl.js"></script>
+    <script src="previewer.js"></script>
+</body>
+
+</html>
